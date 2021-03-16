@@ -4,7 +4,7 @@ package ex001;
 //	 
 // Access: public
 // Type: non-static
-// Returns: an integer
+// Returns: an integer with value 2
 // Name: practiceOne
 // Parameters: none
 
