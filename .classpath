@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="src" path="src/ex009"/>
+	<classpathentry kind="src" path="src/ex008"/>
+	<classpathentry kind="src" path="src/ex001"/>
+	<classpathentry kind="src" path="src/ex012"/>
+	<classpathentry kind="src" path="src/ex011"/>
+	<classpathentry kind="src" path="src/ex003"/>
+	<classpathentry kind="src" path="src/ex014"/>
+	<classpathentry kind="src" path="src/ex002"/>
+	<classpathentry kind="src" path="src/ex013"/>
+	<classpathentry kind="src" path="src/ex005"/>
+	<classpathentry kind="src" path="src/ex004"/>
+	<classpathentry kind="src" path="src/ex007"/>
+	<classpathentry kind="src" path="src/ex006"/>
+	<classpathentry kind="src" path="src/ex010"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-10">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="src" path="ex004"/>
+	<classpathentry kind="src" path="ex003"/>
+	<classpathentry kind="src" path="ex014"/>
+	<classpathentry kind="src" path="ex002"/>
+	<classpathentry kind="src" path="ex013"/>
+	<classpathentry kind="src" path="ex001"/>
+	<classpathentry kind="src" path="ex012"/>
+	<classpathentry kind="src" path="ex011"/>
+	<classpathentry kind="src" path="ex010"/>
+	<classpathentry kind="src" path="ex009"/>
+	<classpathentry kind="src" path="ex008"/>
+	<classpathentry kind="src" path="ex007"/>
+	<classpathentry kind="src" path="ex006"/>
+	<classpathentry kind="src" path="ex005"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
