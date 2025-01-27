@@ -9,10 +9,9 @@ You are creating a Stock class.
 ### Methods:
 - getters and setters, as per the unit test
 - adjustPrice
-    - This method will change the price by change (change can be positive or negative).
-    - It should also recalculate percentChange and marketCap. percentChange represents the percentage changed
-- getPercentChange
-    - percentChange should default to zero, but after adjustPrice is called, this method should return the change as a percent from the previous value.
+    - This method will change the price by the dollar amount given (change can be positive or negative).
+    - It should also recalculate percentChange and marketCap.
+    - return the percentChanged as a double represents the percentage changed
 - getMarketCap
     - marketCap is calculated by multiplying totalShares by price
 - setShares
