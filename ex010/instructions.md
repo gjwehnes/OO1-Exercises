@@ -3,17 +3,14 @@
 	Include the following instance variables:
 	- label (type String)
 	- price (type double)
-	- category (type String)
-	- hasExpired (type boolean) defaults to false
 	- stock (type int, represents how many the store has available)
+	- hasExpired
 	
-	Write four constructors:
-	- A constructor that receives parameters for all instance variables except hasExpired (as it would make no sense to create an instance for expired stock)
+	Write a constructor that receives parameters for all instance variables except hasExpired (as it would make no sense to create an instance for expired stock)
 	
 	2. Include the following methods:
 	- setExpired(boolean hasExpired)
-	    - If the product has an expiration date and hasExpired is true, then it should set the stock to 0.  Otherwise, nothing happens.
-	
+	    - If hasExpired is true, then it should set the stock to 0.  Otherwise, nothing happens.	
 	- public boolean makeSale(int quantity)
 	    - Check if the quantity (being bought) is available given the stock.  If there is enough, then make the sale by subtracting the quantity from the stock and return true (the sale was successful).  If there isn't enough, return false instead.
 	
