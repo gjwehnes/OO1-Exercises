@@ -10,7 +10,8 @@
 	
 	2. Include the following methods:
 	- setExpired(boolean hasExpired)
-	    - If hasExpired is true, then it should set the stock to 0.  Otherwise, nothing happens.	
+	    - If hasExpired is true, then it should set the stock to 0 and change the instance
+	    variable to indicate the stock is now expired. If the parameter hasExpired is false, nothing happens.	
 	- public boolean makeSale(int quantity)
 	    - Check if the quantity (being bought) is available given the stock.  If there is enough, then make the sale by subtracting the quantity from the stock and return true (the sale was successful).  If there isn't enough, return false instead.
 	
