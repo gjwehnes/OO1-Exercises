@@ -6,10 +6,7 @@ public class BicycleTest {
 
 	@Test
 	public void testMutators() {
-	// Failure message: 
-	// If the unit test does not compile, ensure that you've written the mutators correctly. Remember that case matters!
-	// 
-	// If the unit test compiles but fails on running, then check that you are setting the correct values!
+
 			Bicycle bicycle1 = new Bicycle(1,1, false, true);
 
 			//test forwardGear
