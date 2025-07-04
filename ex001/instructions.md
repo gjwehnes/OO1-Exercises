@@ -1,5 +1,5 @@
 ### Ex001
-In class Ex001 add a single method with the following specification:
+In class Ex001 add a single method with the following specs:
 	 
 - Access: public
 - Type: non-static
