@@ -1,8 +1,9 @@
+### Ex003
 *Create* class Ex003 and add a single method with the following specs:
 
-- Access: public
-- Type: non static
-- Name: makeAllCaps
-- Parameters:
+- access: public
+- binding: non static
+- method name: makeAllCaps
+- parameters:
     - a String named "input"
-- Returns: a String  the ALL-CAPS version of the input parameter
+- returns: a String containing the ALL-CAPS version of the input parameter
