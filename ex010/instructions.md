@@ -22,6 +22,7 @@ Complete the StoreProduct.java class:
 
 #### Note
  - You should already be comfortable with accessors (getters) and mutators (setters)
- - The makeSale and getDiscountedPrice are both examples of mutator methods
-   - They are more than complex than 'setters' such as setExpired in that they may modify multiple instance variables
-   - In other words, they modify (_mutate_) the _state_ of the object in some way
+ - The makeSale and discountPrice are both examples of mutator methods
+   - They still modify (_mutate_) the _state_ of the object in some way
+   - They are more than complex than 'setters' such as setExpired in that there are additional behavioural rules
+   - This is communicated to the user because they do not follow the setXXXX naming convention
