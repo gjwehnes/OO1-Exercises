@@ -4,7 +4,7 @@ Within the SimplePerson class, create three public instance variables:
 - A String variable called name with a default value of "Nemo"
 - An integer variable called grade with a default value of 11
 
-**Note**: 
+#### Note 
 - In this exercise, you are not creating accessors methods
 - Rather you *exposing* your instance variables, so that other objects can directly read and/or modify them.
 - As you can see by the unit test, this is syntactical, and in some cases sensible.

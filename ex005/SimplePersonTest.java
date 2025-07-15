@@ -17,14 +17,14 @@ public class SimplePersonTest {
 
     @Test
     public void testFieldModification() {
-        SimplePerson person = new SimplePerson();
-        person.active = false;
-        person.name = "Alice";
-        person.grade = 12;
+        SimplePerson other = new SimplePerson();
+        other.active = false;
+        other.name = "Alice";
+        other.grade = 12;
 
-        assertFalse(person.active);
-        assertEquals("Alice", person.name);
-        assertEquals(12, person.grade);
+        assertFalse(other.active);
+        assertEquals("Alice", other.name);
+        assertEquals(12, other.grade);
     }
 
     @Test
@@ -32,21 +32,21 @@ public class SimplePersonTest {
         Class<?> classObject = SimplePerson.class;
 
         try {
-			Field activeField = classObject.getField("active");
+			Field activeField = classObject.getDeclaredField("active");
 			assertEquals(true, Modifier.isPublic(activeField.getModifiers()));
 		} catch (NoSuchFieldException e) {
 			fail(e.toString());
 		}
 
         try {
-			Field nameField = classObject.getField("name");
+			Field nameField = classObject.getDeclaredField("name");
 			assertEquals(true, Modifier.isPublic(nameField.getModifiers()));
 		} catch (NoSuchFieldException e) {
 			fail(e.toString());
 		}	
 
         try {
-			Field gradeField = classObject.getField("grade");
+			Field gradeField = classObject.getDeclaredField("grade");
 			assertEquals(true, Modifier.isPublic(gradeField.getModifiers()));
 		} catch (NoSuchFieldException e) {
 			fail(e.toString());
