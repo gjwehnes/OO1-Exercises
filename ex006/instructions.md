@@ -1,5 +1,5 @@
 ### Ex006 Student
-We want to create a class 'Student' which can store three values: last name, first name, and ID.
+Create a class 'Student' which can store three values: last name, first name, and ID.
 
 - Create three instance variables. These instance variables should all be set as private, which means that they are not visible (in scope) to any other class. In other words, these variables are encapsulated.
 - Create a _constructor_, which sets the instance variables to the values that are passed in as parameters.
