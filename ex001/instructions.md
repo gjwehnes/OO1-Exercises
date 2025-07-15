@@ -1,4 +1,4 @@
-### Ex001
+### Ex001 getAnswer
 In class Ex001 add a single method with the following specs:
 	 
 - access: public

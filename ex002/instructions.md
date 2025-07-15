@@ -1,4 +1,4 @@
-### Ex002
+### Ex002 beTrue
 In class Ex002 add a single method with the following specs:
  
 - access: public

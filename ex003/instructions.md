@@ -1,4 +1,4 @@
-### Ex003
+### Ex003 makeAllCaps
 *Create* class Ex003 and add a single method with the following specs:
 
 - access: public

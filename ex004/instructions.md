@@ -1,4 +1,4 @@
-### Ex004
+### Ex004 add
 *Create* class Ex004 and add a single method with the following specs:
 
 - access: public
